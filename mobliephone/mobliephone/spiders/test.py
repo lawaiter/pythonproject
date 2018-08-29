@@ -106,5 +106,3 @@ print(bisect.bisect(inter_list, 13))
 from collections.abc import Mapping, MutableMapping
 # dict si Mapping
 print(isinstance({}, MutableMapping))
-
-dict

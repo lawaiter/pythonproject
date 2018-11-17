@@ -10,7 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/bolezaixian$main.coverage" NAME="main Coverage Results" MODIFIED="1533533478106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bolezaixian" />
+    <SUITE FILE_PATH="coverage/bolezaixian$main.coverage" NAME="main Coverage Results" MODIFIED="1541342718148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bolezaixian" />
     <SUITE FILE_PATH="coverage/bolezaixian$zhihu.coverage" NAME="zhihu Coverage Results" MODIFIED="1516005964583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bolezaixian/spiders" />
     <SUITE FILE_PATH="coverage/bolezaixian$jobbole.coverage" NAME="jobbole Coverage Results" MODIFIED="1514639061618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bolezaixian/spiders" />
     <SUITE FILE_PATH="coverage/bolezaixian$lagou.coverage" NAME="lagou Coverage Results" MODIFIED="1517590223857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bolezaixian/spiders" />
@@ -20,7 +20,7 @@
       <file leaf-file-name="lagou.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bolezaixian/spiders/lagou.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
+            <state relative-caret-position="510">
               <caret line="41" column="66" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
@@ -32,8 +32,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="10" selection-end-column="39" />
+            <state relative-caret-position="150">
+              <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
               <folding>
                 <element signature="e#53#87#0" expanded="true" />
               </folding>
@@ -44,8 +44,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bolezaixian/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1515">
-              <caret line="101" selection-start-line="101" selection-end-line="104" selection-end-column="19" />
+            <state relative-caret-position="1245">
+              <caret line="83" column="28" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -53,8 +53,8 @@
       <file leaf-file-name="jobbole.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bolezaixian/spiders/jobbole.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="233">
+              <caret line="95" column="32" lean-forward="true" selection-start-line="95" selection-start-column="32" selection-end-line="96" selection-end-column="48" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -65,8 +65,8 @@
       <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bolezaixian/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
+            <state relative-caret-position="210">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="53" selection-end-column="35" />
               <folding>
                 <element signature="e#192#242#0" expanded="true" />
                 <marker date="1523632413691" expanded="true" signature="1340:1468" ph="insert into articleinfo... " />
@@ -91,7 +91,7 @@
       <file leaf-file-name="zhihu.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bolezaixian/spiders/zhihu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="450">
               <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
@@ -127,10 +127,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-201" />
-    <option name="y" value="249" />
-    <option name="width" value="1557" />
-    <option name="height" value="1089" />
+    <option name="x" value="-9" />
+    <option name="y" value="3" />
+    <option name="width" value="1941" />
+    <option name="height" value="1041" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -304,15 +304,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32994923" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32994923" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28426397" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2834507" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49915397" visible="true" weight="0.24277908" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49915397" visible="true" weight="0.2506063" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="SciView" order="4" />
@@ -777,25 +778,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bolezaixian/spiders/jobbole.py">
+    <entry file="file://$PROJECT_DIR$/bolezaixian/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="405">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bolezaixian/spiders/zhihu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bolezaixian/spiders/lagou.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="41" column="66" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bolezaixian/pipelines.py">
+    <entry file="file://$PROJECT_DIR$/bolezaixian/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
-          <folding>
-            <element signature="e#192#242#0" expanded="true" />
-            <marker date="1523632413691" expanded="true" signature="1340:1468" ph="insert into articleinfo... " />
-            <marker date="1523632413691" expanded="true" signature="2857:2985" ph="insert into articleinfo... " />
-          </folding>
+        <state relative-caret-position="1245">
+          <caret line="83" column="28" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -809,31 +819,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bolezaixian/middlewares.py">
+    <entry file="file://$PROJECT_DIR$/bolezaixian/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        <state relative-caret-position="210">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="53" selection-end-column="35" />
+          <folding>
+            <element signature="e#192#242#0" expanded="true" />
+            <marker date="1523632413691" expanded="true" signature="1340:1468" ph="insert into articleinfo... " />
+            <marker date="1523632413691" expanded="true" signature="2857:2985" ph="insert into articleinfo... " />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bolezaixian/settings.py">
+    <entry file="file://$PROJECT_DIR$/bolezaixian/spiders/jobbole.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1515">
-          <caret line="101" selection-start-line="101" selection-end-line="104" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bolezaixian/spiders/zhihu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bolezaixian/spiders/lagou.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="41" column="66" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
+        <state relative-caret-position="233">
+          <caret line="95" column="32" lean-forward="true" selection-start-line="95" selection-start-column="32" selection-end-line="96" selection-end-column="48" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
@@ -842,8 +843,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="10" selection-end-column="39" />
+        <state relative-caret-position="150">
+          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
           <folding>
             <element signature="e#53#87#0" expanded="true" />
           </folding>

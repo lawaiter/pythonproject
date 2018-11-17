@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb0f0ab8-5238-4090-9735-35e76ca67896" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/mobliephone/tools/local_html/taobao/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobliephone/tools/space_surface.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bolezaixian/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bolezaixian/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobliephone/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/mobliephone/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobliephone/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/mobliephone/items.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobliephone/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/mobliephone/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobliephone/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mobliephone/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobliephone/spiders/JingdongComment.py" beforeDir="false" afterPath="$PROJECT_DIR$/mobliephone/spiders/JingdongComment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobliephone/spiders/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/mobliephone/spiders/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobliephone/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/mobliephone/spiders/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobliephone/tools/GetEveryPhoneType.py" beforeDir="false" afterPath="$PROJECT_DIR$/mobliephone/tools/GetEveryPhoneType.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobliephone/tools/JindongSavePhoneUrls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mobliephone/tools/JingdongSavePhoneUrls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobliephone/tools/TaobaoSavePhoneUrls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mobliephone/tools/TaobaoSavePhoneUrls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobliephone/tools/TestComment.py" beforeDir="false" afterPath="$PROJECT_DIR$/mobliephone/tools/TestComment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobliephone/tools/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/mobliephone/tools/geckodriver.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,8 +36,8 @@
       <file leaf-file-name="TaobaoSavePhoneUrls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mobliephone/tools/TaobaoSavePhoneUrls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1477">
-              <caret line="127" column="16" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
+            <state relative-caret-position="105">
+              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
               <folding>
                 <element signature="e#368#377#0" expanded="true" />
               </folding>
@@ -62,8 +48,8 @@
       <file leaf-file-name="JingdongSavePhoneUrls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mobliephone/tools/JingdongSavePhoneUrls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="31" column="43" lean-forward="true" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+            <state relative-caret-position="405">
+              <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
               <folding>
                 <element signature="e#636#650#0" expanded="true" />
               </folding>
@@ -342,6 +328,14 @@
       <option name="presentableId" value="Default" />
       <updated>1523001958005</updated>
     </task>
+    <task id="LOCAL-00001" summary="2018年11月17日 surface推送，缺淘宝的爬取">
+      <created>1542434149746</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542434149746</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -354,24 +348,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="704" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32854578" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32854578" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.329806" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3282572" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.11889973" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6256983" visible="true" weight="0.19240098" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6256983" visible="true" weight="0.1956346" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="4" weight="0.32983023" />
       <window_info id="Structure" order="1" sideWeight="0.15696649" side_tool="true" weight="0.23767179" />
       <window_info id="Favorites" order="2" sideWeight="0.37430167" side_tool="true" weight="0.20711975" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3915344" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="8" weight="0.32854578" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -379,33 +374,33 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="8" weight="0.32854578" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8430335" visible="true" weight="0.23767179" />
       <window_info id="Structure" order="1" sideWeight="0.15696649" side_tool="true" visible="true" weight="0.23767179" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32922536" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.35097003" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3282572" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" x="0" y="0" width="273" height="504" id="Documentation" order="6" side_tool="true" weight="0.32943013" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.13756613" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32994923" />
       <window_info anchor="right" id="SciView" order="5" weight="0.32983023" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32994923" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3282572" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,6 +408,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2018年11月17日 surface推送，缺淘宝的爬取" />
+    <option name="LAST_COMMIT_MESSAGE" value="2018年11月17日 surface推送，缺淘宝的爬取" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -661,8 +660,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mobliephone/tools/JingdongSavePhoneUrls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="31" column="43" lean-forward="true" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+        <state relative-caret-position="405">
+          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
           <folding>
             <element signature="e#636#650#0" expanded="true" />
           </folding>
@@ -671,8 +670,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mobliephone/tools/TaobaoSavePhoneUrls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1477">
-          <caret line="127" column="16" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
+        <state relative-caret-position="105">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding>
             <element signature="e#368#377#0" expanded="true" />
           </folding>

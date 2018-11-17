@@ -3892,3 +3892,56 @@ Unable to read VR Path Registry from C:\Users\pro2\AppData\Local\openvr\openvrpa
 Unable to read VR Path Registry from C:\Users\pro2\AppData\Local\openvr\openvrpaths.vrpath
 1533533445268	Marionette	INFO	Listening on port 50734
 1533533445685	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540794202968	geckodriver	INFO	geckodriver 0.20.1
+1540794202983	geckodriver	INFO	Listening on 127.0.0.1:50585
+1540794206024	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\pro2\\AppData\\Local\\Temp\\rust_mozprofile.MRreM2Iqzupt"
+1540794206801	Marionette	DEBUG	Received observer notification profile-after-change
+1540794207036	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1540794207090	Marionette	DEBUG	Received observer notification command-line-startup
+1540794207090	Marionette	DEBUG	Received observer notification nsPref:changed
+1540794207090	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1540794207223	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1540794209336	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1540794209336	Marionette	DEBUG	Waiting for delayed startup...
+1540794209558	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1540794209559	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1540794209560	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1540794209561	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1540794209561	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1540794209667	Marionette	INFO	Listening on port 50593
+1540794209667	Marionette	DEBUG	Remote service is active
+1540794209706	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:50606
+1540794209723	Marionette	TRACE	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1540794209723	Marionette	TRACE	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:178: ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1540794302604	geckodriver	INFO	geckodriver 0.20.1
+1540794302635	geckodriver	INFO	Listening on 127.0.0.1:50625
+1540794305660	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-profile" "C:\\Users\\pro2\\AppData\\Local\\Temp\\rust_mozprofile.NAhNPYAy8RwH"
+*** You are running in headless mode.
+1540794306448	Marionette	DEBUG	Received observer notification profile-after-change
+1540794306537	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1540794306578	Marionette	DEBUG	Received observer notification command-line-startup
+1540794306578	Marionette	DEBUG	Received observer notification nsPref:changed
+1540794306578	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1540794306698	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1540794308208	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1540794308209	Marionette	DEBUG	Waiting for delayed startup...
+1540794308308	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1540794308308	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1540794308310	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1540794308310	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1540794308311	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1540794308373	Marionette	INFO	Listening on port 50633
+1540794308373	Marionette	DEBUG	Remote service is active
+1540794308794	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:50648
+1540794308795	Marionette	TRACE	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1540794308796	Marionette	TRACE	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:178: ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1540795237722	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\pro2\\AppData\\Local\\Temp\\rust_mozprofile.lYDMxrbexOOg"
+*** You are running in headless mode.
+1540795241400	Marionette	INFO	Listening on port 50933
+1540795241570	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1540795266074	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\pro2\\AppData\\Local\\Temp\\rust_mozprofile.hQSrg826s8My"
+*** You are running in headless mode.
+1540795269337	Marionette	INFO	Listening on port 50978
+1540795269465	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined

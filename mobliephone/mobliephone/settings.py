@@ -66,7 +66,8 @@ ROBOTSTXT_OBEY = False
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
     # 'mobliephone.pipelines.MobliephonePipeline': 300,
-    'mobliephone.pipelines.MysqlTwistedPipeline':1,
+      'mobliephone.pipelines.JingdongPipeline': 1,
+    # 'mobliephone.pipelines.ElasticsearchPipeline': 1,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -92,7 +93,7 @@ ITEM_PIPELINES = {
 
 
 MYSQL_HOST = "127.0.0.1"
-MYSQL_DBNAME = "jindongphoneurls"
+MYSQL_DBNAME = "JingdongPhoneComment"
 MYSQL_PASSWORD = "tentan"
 MTSQL_USER = "root"
 

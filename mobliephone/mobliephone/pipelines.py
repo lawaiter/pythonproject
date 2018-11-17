@@ -53,11 +53,15 @@ class MysqlTwistedPipeline1(object):
         cursor.execute(insert_sql, (item["phone_name"], item['comment_star'], item["comment_con"], item["comment_time"]))
 
 
-class MysqlTwistedPipeline(object):
+# 这是正常的将爬取到的数据存入Mysql数据库的Pipeline
+class JingdongPipeline(object):
+
+    # 初始化，首先是连接数据库
     def __init__(self):
-        self.conn = MySQLdb.connect("127.0.0.1", "root", "tentan", "jindongphoneurls", charset="utf8", use_unicode=True)
+        self.conn = MySQLdb.connect("127.0.0.1", "root", "tentan", "jingdongphonecomment", charset="utf8", use_unicode=True)
         self.cursor = self.conn.cursor()
 
+    # 执行数据库插入新的数据的动作
     def process_item(self, item, spider):
         insert_sql = """INSERT INTO phonecomments(phone_name, comment_star, comment_con, comment_time) VALUES (%s, %s, %s, %s)"""
         self.cursor.execute(insert_sql, (item["phone_name"], item['comment_star'], item["comment_con"], item["comment_time"]))
@@ -67,3 +71,14 @@ class MysqlTwistedPipeline(object):
 # 这是一个返回时，将评论存储为文本的类
 class MyCommentTextPipeline(object):
     pass
+
+
+class ElasticsearchPipeline(object):
+
+    """ 这是将scrapy获取的数据写入到elasticsearch中去"""
+
+    def process_item(self, item, spider):
+        # 将items转换为Es的中的数据模型
+        item.save_to_es()
+        # 返回item
+        return item

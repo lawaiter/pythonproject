@@ -103,6 +103,22 @@ bisect.insort(inter_list, 12)
 print(bisect.bisect(inter_list, 13))
 """
 
-from collections.abc import Mapping, MutableMapping
-# dict si Mapping
-print(isinstance({}, MutableMapping))
+
+
+
+from selenium import webdriver
+from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.support.ui import WebDriverWait # available since 2.4.0
+from selenium.webdriver.support import expected_conditions as EC # available since 2.26.0
+
+
+firefox_options = Options()
+firefox_options.add_argument('--headless')
+
+# Create a new instance of the Firefox driver
+driver = webdriver.Firefox(firefox_options=firefox_options)
+
+# go to the google home page
+driver.get("http://www.baidu.com")
+driver.find_elements_by_class_name('div')
+pass

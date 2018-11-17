@@ -24,7 +24,7 @@ from mobliephone.items import MobliephoneItem
 # 从数据库中读取对应的手机类型和京东网店对应的地址
 def get_phone_url_from_mysql():
     # 连接存取着手机的京东网店数据库
-    conn = MySQLdb.connect(host='127.0.0.1', user='root', passwd='tentan', db='jindongphoneurls', port=3306, charset="utf8", use_unicode=True)
+    conn = MySQLdb.connect(host='127.0.0.1', user='root', passwd='tentan', db='JingdongPhoneComment', port=3306, charset="utf8", use_unicode=True)
     cursor = conn.cursor()
     query_phone_info = "SELECT phone_type, url FROM phoneurls"
     phone_url_lists = []
@@ -79,6 +79,7 @@ class JingdongCommentSpider(scrapy.Spider):
     profile.set_preference('network.proxy.http_port', ip_port)
     profile.set_preference('network.proxy.ssl', ip_ip)
     profile.set_preference('network.proxy.ssl_port', ip_port)
+    
     # 这是设置User-Agent
     profile.set_preference("general.useragent.override", user_agent)
     profile.update_preferences()
@@ -94,7 +95,7 @@ class JingdongCommentSpider(scrapy.Spider):
     def closespider(self, spider):
         print("spider closed")
         # 当爬虫退出的时关闭浏览器
-        self.driver.close()
+        self.driver.quit()
 
     # 对网店页面的内容进行解析
     def parse_phone(self):
@@ -139,7 +140,7 @@ class JingdongCommentSpider(scrapy.Spider):
                     else:
                         try:
                             self.driver.find_element_by_xpath("//li[@data-anchor='#comment']").click()
-                            time.sleep(randint(7, 10))
+                            time.sleep(randint(3, 5))
                             # 连续获得该网店下所有的评论
                             for times in range(0, 10000):
                                 # 将第一页的评论储存起来，用来重新爬取的时候的比较

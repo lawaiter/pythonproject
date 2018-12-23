@@ -2,68 +2,94 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb0f0ab8-5238-4090-9735-35e76ca67896" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../bolezaixian/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bolezaixian/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mobliephone.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mobliephone.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobliephone/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/mobliephone/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobliephone/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/mobliephone/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobliephone/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/mobliephone/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobliephone/spiders/JingdongComment.py" beforeDir="false" afterPath="$PROJECT_DIR$/mobliephone/spiders/JingdongComment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobliephone/tools/JingdongSavePhoneUrls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mobliephone/tools/JingdongSavePhoneUrls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobliephone/tools/TaobaoSavePhoneUrls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mobliephone/tools/TaobaoSavePhoneUrls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobliephone/tools/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/mobliephone/tools/geckodriver.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/mobliephone$TaobaoSpiderTest.coverage" NAME="TaobaoSpiderTest Coverage Results" MODIFIED="1545493398592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mobliephone/tools" />
     <SUITE FILE_PATH="coverage/mobliephone$Es_models.coverage" NAME="Es_models Coverage Results" MODIFIED="1539017042093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mobliephone/models" />
-    <SUITE FILE_PATH="coverage/mobliephone$TaobaoSavePhoneUrls.coverage" NAME="TaobaoSavePhoneUrls Coverage Results" MODIFIED="1541267176811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mobliephone/tools" />
-    <SUITE FILE_PATH="coverage/mobliephone$JindongSavePhoneUrls.coverage" NAME="JindongSavePhoneUrls Coverage Results" MODIFIED="1538812768504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mobliephone/tools" />
-    <SUITE FILE_PATH="coverage/mobliephone$SavePhoneUrls.coverage" NAME="SavePhoneUrls Coverage Results" MODIFIED="1523378682393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mobliephone/tools" />
-    <SUITE FILE_PATH="coverage/mobliephone$GetEveryPhoneType.coverage" NAME="GetEveryPhoneType Coverage Results" MODIFIED="1540799100264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mobliephone/tools" />
     <SUITE FILE_PATH="coverage/mobliephone$test.coverage" NAME="test Coverage Results" MODIFIED="1540795250677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mobliephone/spiders" />
-    <SUITE FILE_PATH="coverage/mobliephone$main.coverage" NAME="main Coverage Results" MODIFIED="1541047485461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mobliephone" />
-    <SUITE FILE_PATH="coverage/mobliephone$jingdong.coverage" NAME="jingdong Coverage Results" MODIFIED="1523422790543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mobliephone/spiders" />
-    <SUITE FILE_PATH="coverage/mobliephone$JingdongSavePhoneUrls.coverage" NAME="JingdongSavePhoneUrls Coverage Results" MODIFIED="1540915661812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mobliephone/tools" />
-    <SUITE FILE_PATH="coverage/mobliephone$TestComment.coverage" NAME="TestComment Coverage Results" MODIFIED="1541342733931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mobliephone/tools" />
+    <SUITE FILE_PATH="coverage/mobliephone$pyppteerTest.coverage" NAME="pyppteerTest Coverage Results" MODIFIED="1545543384092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mobliephone/tools" />
     <SUITE FILE_PATH="coverage/mobliephone$pipelines.coverage" NAME="pipelines Coverage Results" MODIFIED="1523635560083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mobliephone" />
+    <SUITE FILE_PATH="coverage/mobliephone$jingdong.coverage" NAME="jingdong Coverage Results" MODIFIED="1523422790543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mobliephone/spiders" />
+    <SUITE FILE_PATH="coverage/mobliephone$JindongSavePhoneUrls.coverage" NAME="JindongSavePhoneUrls Coverage Results" MODIFIED="1538812768504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mobliephone/tools" />
+    <SUITE FILE_PATH="coverage/mobliephone$GetEveryPhoneType.coverage" NAME="GetEveryPhoneType Coverage Results" MODIFIED="1545534615510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mobliephone/tools" />
+    <SUITE FILE_PATH="coverage/mobliephone$SavePhoneUrls.coverage" NAME="SavePhoneUrls Coverage Results" MODIFIED="1523378682393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mobliephone/tools" />
+    <SUITE FILE_PATH="coverage/mobliephone$TestComment.coverage" NAME="TestComment Coverage Results" MODIFIED="1542469407816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mobliephone/tools" />
+    <SUITE FILE_PATH="coverage/mobliephone$JingdongSavePhoneUrls.coverage" NAME="JingdongSavePhoneUrls Coverage Results" MODIFIED="1545543494824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mobliephone/tools" />
     <SUITE FILE_PATH="coverage/mobliephone$JingdongComment.coverage" NAME="JingdongComment Coverage Results" MODIFIED="1538921735328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mobliephone/spiders" />
     <SUITE FILE_PATH="coverage/mobliephone$gettaobaogoods.coverage" NAME="gettaobaogoods Coverage Results" MODIFIED="1541173650518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$" />
     <SUITE FILE_PATH="coverage/mobliephone$events.coverage" NAME="events Coverage Results" MODIFIED="1527864827034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Anaconda3/Lib/asyncio" />
+    <SUITE FILE_PATH="coverage/mobliephone$TaobaoSavePhoneUrls.coverage" NAME="TaobaoSavePhoneUrls Coverage Results" MODIFIED="1541267176811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mobliephone/tools" />
+    <SUITE FILE_PATH="coverage/mobliephone$main.coverage" NAME="main Coverage Results" MODIFIED="1545545249401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mobliephone" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1341839373">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="csv" value="1" />
+          <entry key="html" value="1" />
+          <entry key="png" value="2" />
+          <entry key="py" value="34" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="Image" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="34" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="273" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="273" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="mobliephone" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TaobaoSavePhoneUrls.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mobliephone/tools/TaobaoSavePhoneUrls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-              <folding>
-                <element signature="e#368#377#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JingdongSavePhoneUrls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobliephone/tools/JingdongSavePhoneUrls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
-              <folding>
-                <element signature="e#636#650#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -85,6 +111,7 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
@@ -101,22 +128,24 @@
         <option value="$PROJECT_DIR$/mobliephone/main.py" />
         <option value="$PROJECT_DIR$/mobliephone/learn.html" />
         <option value="$USER_HOME$/Desktop/elasticsearch-rtf-master/elasticsearch-rtf-master/config/elasticsearch.yml" />
-        <option value="$PROJECT_DIR$/mobliephone/items.py" />
         <option value="$PROJECT_DIR$/mobliephone/models/Es_models.py" />
         <option value="$PROJECT_DIR$/mobliephone/spiders/test.py" />
         <option value="$PROJECT_DIR$/mobliephone/tools/GetEveryPhoneType.py" />
         <option value="$PROJECT_DIR$/mobliephone/tools/JindongSavePhoneUrls.py" />
-        <option value="$PROJECT_DIR$/mobliephone/spiders/JingdongComment.py" />
-        <option value="$PROJECT_DIR$/mobliephone/tools/JingdongSavePhoneUrls.py" />
         <option value="$PROJECT_DIR$/mobliephone/settings.py" />
         <option value="$PROJECT_DIR$/mobliephone/tools/taobaotest.html" />
         <option value="$PROJECT_DIR$/mobliephone/tools/a" />
         <option value="$PROJECT_DIR$/mobliephone/tools/local_html/taobao/test.html" />
         <option value="$PROJECT_DIR$/mobliephone/tools/local_html/taobao/小米8 青春版.html" />
-        <option value="$PROJECT_DIR$/mobliephone/tools/TaobaoSavePhoneUrls.py" />
-        <option value="$PROJECT_DIR$/mobliephone/pipelines.py" />
         <option value="$PROJECT_DIR$/mobliephone/spiders/TaobaoComment.py" />
         <option value="$PROJECT_DIR$/mobliephone/tools/TestComment.py" />
+        <option value="$PROJECT_DIR$/mobliephone/tools/TaobaoSpiderTest.py" />
+        <option value="$PROJECT_DIR$/mobliephone/tools/JingdongSavePhoneUrls.py" />
+        <option value="$PROJECT_DIR$/mobliephone/tools/TaobaoSavePhoneUrls.py" />
+        <option value="$PROJECT_DIR$/mobliephone/tools/pyppteerTest.py" />
+        <option value="$PROJECT_DIR$/mobliephone/spiders/JingdongComment.py" />
+        <option value="$PROJECT_DIR$/mobliephone/items.py" />
+        <option value="$PROJECT_DIR$/mobliephone/pipelines.py" />
       </list>
     </option>
   </component>
@@ -127,42 +156,42 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="3" />
-    <option name="width" value="1941" />
-    <option name="height" value="1041" />
+    <option name="x" value="40" />
+    <option name="width" value="1327" />
+    <option name="height" value="769" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <showMembers ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="mobliephone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="mobliephone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="mobliephone" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="mobliephone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="mobliephone" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="spiders" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
-            <path>
-              <item name="mobliephone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobliephone" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobliephone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobliephone" type="462c0819:PsiDirectoryNode" />
-              <item name="mobliephone" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobliephone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobliephone" type="462c0819:PsiDirectoryNode" />
-              <item name="mobliephone" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobliephone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobliephone" type="462c0819:PsiDirectoryNode" />
-              <item name="mobliephone" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="mobliephone" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
@@ -171,14 +200,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/pro2/PycharmProjects/mobliephone/mobliephone/spiders/TaobaoComment.py" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bolezaixian" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -200,7 +228,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.TestComment">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="GetEveryPhoneType" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mobliephone" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mobliephone/tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mobliephone/tools/GetEveryPhoneType.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="JingdongSavePhoneUrls" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mobliephone" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -219,8 +269,11 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="TaobaoSavePhoneUrls" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="TaobaoSpiderTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mobliephone" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -233,49 +286,14 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mobliephone/tools/TaobaoSavePhoneUrls.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mobliephone/tools/TaobaoSpiderTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="TestComment" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="mobliephone" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mobliephone/tools" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mobliephone/tools/TestComment.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="gettaobaogoods" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="mobliephone" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/gettaobaogoods.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mobliephone" />
@@ -295,21 +313,46 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pyppteerTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mobliephone" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mobliephone/tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mobliephone/tools/pyppteerTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.main" />
+      <item itemvalue="Python.TaobaoSpiderTest" />
+      <item itemvalue="Python.pyppteerTest" />
       <item itemvalue="Python.JingdongSavePhoneUrls" />
-      <item itemvalue="Python.TaobaoSavePhoneUrls" />
-      <item itemvalue="Python.gettaobaogoods" />
-      <item itemvalue="Python.TestComment" />
+      <item itemvalue="Python.GetEveryPhoneType" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.TestComment" />
-        <item itemvalue="Python.TaobaoSavePhoneUrls" />
-        <item itemvalue="Python.gettaobaogoods" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.JingdongSavePhoneUrls" />
+        <item itemvalue="Python.pyppteerTest" />
+        <item itemvalue="Python.GetEveryPhoneType" />
+        <item itemvalue="Python.TaobaoSpiderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -348,63 +391,72 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="704" extended-state="7" />
-    <editor active="true" />
+    <frame x="40" y="0" width="1327" height="769" extended-state="6" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32854578" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32854578" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.329806" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.3282572" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.11889973" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6256983" visible="true" weight="0.1956346" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="4" weight="0.32983023" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6256983" visible="true" weight="0.22369447" />
       <window_info id="Structure" order="1" sideWeight="0.15696649" side_tool="true" weight="0.23767179" />
       <window_info id="Favorites" order="2" sideWeight="0.37430167" side_tool="true" weight="0.20711975" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3915344" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="8" weight="0.32854578" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" x="0" y="0" width="273" height="504" id="Documentation" order="5" side_tool="true" weight="0.32943013" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
-    </layout>
-    <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49961028" weight="0.80893683" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39137134" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8430335" visible="true" weight="0.23767179" />
-      <window_info id="Structure" order="1" sideWeight="0.15696649" side_tool="true" visible="true" weight="0.23767179" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32854578" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003897" side_tool="true" weight="0.10631741" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.19538462" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32819724" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32854578" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32922536" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35097003" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3282572" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" x="0" y="0" width="273" height="504" id="Documentation" order="6" side_tool="true" weight="0.32943013" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.13756613" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32994923" />
       <window_info anchor="right" id="SciView" order="5" weight="0.32983023" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32994923" />
+      <window_info anchor="right" x="0" y="0" width="273" height="504" id="Documentation" order="6" side_tool="true" weight="0.32943013" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8430335" visible="true" weight="0.23767179" />
+      <window_info id="Structure" order="1" sideWeight="0.15696649" side_tool="true" visible="true" weight="0.23767179" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35097003" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.13756613" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32922536" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3282572" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32994923" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32994923" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" />
+      <window_info anchor="right" id="SciView" order="5" weight="0.32983023" />
+      <window_info anchor="right" x="0" y="0" width="273" height="504" id="Documentation" order="6" side_tool="true" weight="0.32943013" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -432,117 +484,24 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="124" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pip/compat/__init__.py" />
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/wordcloud/wordcloud.py" />
-    <entry file="uml://Python/NotImplementedError">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>Python</ID>
-          <OriginalElement>NotImplementedError</OriginalElement>
-          <nodes>
-            <node x="" y="">BaseException</node>
-            <node x="" y="">object</node>
-            <node x="" y="">Exception</node>
-            <node x="" y="">RuntimeError</node>
-            <node x="" y="">NotImplementedError</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="80.0" y="175.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/asyncio/base_events.py" />
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/asyncio/events.py" />
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/codecs.py" />
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/bisect.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/946430642/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobliephone/tools/space_surface.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1344" selection-start-line="1344" selection-end-line="1344" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mobliephone/learn.html" />
-    <entry file="file://$USER_HOME$/Desktop/elasticsearch-rtf-master/elasticsearch-rtf-master/config/elasticsearch.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="95" column="81" lean-forward="true" selection-start-line="95" selection-start-column="81" selection-end-line="95" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/twisted/internet/task.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="671" selection-start-line="671" selection-end-line="671" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/twisted/internet/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="1251" selection-start-line="1251" selection-end-line="1251" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/elasticsearch-rtf-master/elasticsearch-rtf-master/config/elasticsearch.yml" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/twisted/internet/task.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/twisted/internet/base.py" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scrapy/utils/defer.py" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scrapy/middleware.py" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scrapy/pipelines/__init__.py" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scrapy/core/scraper.py" />
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/twisted/internet/defer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="302" selection-start-line="302" selection-end-line="302" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/twisted/internet/defer.py" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/elasticsearch/client/indices.py" />
-    <entry file="file://$PROJECT_DIR$/mobliephone/models/Es_models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="37" column="36" lean-forward="true" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobliephone/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mobliephone/models/Es_models.py" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/elasticsearch_dsl/document.py" />
-    <entry file="file://$PROJECT_DIR$/mobliephone/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/selenium/webdriver/common/utils.py" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/selenium/webdriver/remote/errorhandler.py" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/selenium/webdriver/firefox/firefox_profile.py" />
-    <entry file="file://$PROJECT_DIR$/mobliephone/spiders/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="120" column="28" lean-forward="true" selection-start-line="120" selection-start-column="28" selection-end-line="120" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/selenium/webdriver/remote/remote_connection.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -554,43 +513,11 @@
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/selenium/webdriver/firefox/webdriver.py" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scrapy/selector/unified.py" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/http/client.py" />
-    <entry file="file://$PROJECT_DIR$/mobliephone/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="46" column="65" lean-forward="true" selection-start-line="46" selection-start-column="65" selection-end-line="46" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/selenium/webdriver/remote/webdriver.py" />
-    <entry file="file://$USER_HOME$/gettaobaogoods.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="11" lean-forward="true" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/requests/sessions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2201">
-          <caret line="468" column="29" selection-start-line="468" selection-start-column="29" selection-end-line="468" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/requests/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="57" column="25" lean-forward="true" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/gettaobaogoods.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/requests/sessions.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/requests/api.py" />
     <entry file="file://$PROJECT_DIR$/mobliephone/tools/a" />
-    <entry file="file://$PROJECT_DIR$/mobliephone/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-995">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mobliephone/tools/local_html/taobao/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -598,82 +525,158 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobliephone/tools/taobaotest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35272">
-          <caret line="221" column="9" selection-start-line="221" selection-start-column="6" selection-end-line="221" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobliephone/tools/local_html/taobao/小米8 青春版.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-618">
-          <caret line="59" column="105314" lean-forward="true" selection-start-line="59" selection-start-column="105314" selection-end-line="59" selection-end-column="105421" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mobliephone/tools/taobaotest.html" />
+    <entry file="file://$PROJECT_DIR$/mobliephone/tools/local_html/taobao/小米8 青春版.html" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/PyQt5/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/mobliephone/spiders/JingdongComment.py">
+    <entry file="file://$PROJECT_DIR$/mobliephone/spiders/TaobaoComment.py" />
+    <entry file="file://$USER_HOME$/Desktop/mlearn/myscripts/mynativeBYS.py" />
+    <entry file="file://$PROJECT_DIR$/mobliephone/spiders/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="23" selection-start-line="23" selection-end-line="44" selection-end-column="26" />
+        <state relative-caret-position="195">
+          <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+          <folding>
+            <element signature="e#31#44#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobliephone/spiders/TaobaoComment.py">
+    <entry file="file://$PROJECT_DIR$/mobliephone/tools/space_surface.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="179">
+          <caret line="1477" lean-forward="true" selection-start-line="1477" selection-end-line="1477" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobliephone/pipelines.py">
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/requests/sessions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+        <state relative-caret-position="160">
+          <caret line="368" selection-start-line="368" selection-end-line="368" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/requests/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/requests/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="808" selection-start-line="808" selection-end-line="808" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobliephone/tools/TaobaoSpiderTest.py" />
+    <entry file="file://$PROJECT_DIR$/mobliephone/tools/mix2s.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10620">
+          <caret line="708" column="16" selection-start-line="708" selection-start-column="16" selection-end-line="708" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobliephone/tools/example.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="53" lean-forward="true" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobliephone/tools/JingdongSavePhoneUrls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="e#637#651#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobliephone/tools/TestComment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="251" column="22" lean-forward="true" selection-start-line="251" selection-start-column="22" selection-end-line="251" selection-end-column="22" />
+        <state relative-caret-position="105">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobliephone/tools/GetEveryPhoneType.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="36" column="43" lean-forward="true" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+        <state relative-caret-position="495">
+          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
           <folding>
             <element signature="e#777#788#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/mlearn/myscripts/mynativeBYS.py">
+    <entry file="file://$PROJECT_DIR$/mobliephone/spiders/JingdongComment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="76" column="34" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
+        <state relative-caret-position="480">
+          <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+          <folding>
+            <element signature="e#366#379#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobliephone/tools/JingdongSavePhoneUrls.py">
+    <entry file="file://$PROJECT_DIR$/mobliephone/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
-          <folding>
-            <element signature="e#636#650#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="359">
+          <caret line="46" column="65" selection-start-line="46" selection-start-column="65" selection-end-line="46" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobliephone/tools/TaobaoSavePhoneUrls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="-1350">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobliephone/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobliephone/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
           <folding>
-            <element signature="e#368#377#0" expanded="true" />
+            <marker date="1545545127694" expanded="true" signature="99:104" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobliephone/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+          <folding>
+            <element signature="e#192#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobliephone/tools/pyppteerTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="12" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobliephone/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>

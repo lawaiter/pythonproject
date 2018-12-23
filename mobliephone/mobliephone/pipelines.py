@@ -4,8 +4,8 @@
 #
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
-import MySQLdb
-import MySQLdb.cursors
+import pymysql
+import pymysql.cursors
 from twisted.enterprise import adbapi
 
 
@@ -28,7 +28,7 @@ class MysqlTwistedPipeline1(object):
             user=settings["MYSQL_USER"],
             db=settings["MYSQL_DBNAME"],
             charset="utf8",
-            cursorclass=MySQLdb.cursors.DictCursor,
+            cursorclass=pymysql.cursors.DictCursor,
             use_unicode=True
         )
         dbpool = adbapi.ConnectionPool("MySQLdb", **dbparms)
@@ -58,7 +58,7 @@ class JingdongPipeline(object):
 
     # 初始化，首先是连接数据库
     def __init__(self):
-        self.conn = MySQLdb.connect("127.0.0.1", "root", "tentan", "jingdongphonecomment", charset="utf8", use_unicode=True)
+        self.conn = pymysql.connect("127.0.0.1", "root", "tentan", "JingdongPhoneComment", charset="utf8", use_unicode=True)
         self.cursor = self.conn.cursor()
 
     # 执行数据库插入新的数据的动作

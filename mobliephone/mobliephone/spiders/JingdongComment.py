@@ -13,10 +13,10 @@ import scrapy
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 import time
-import MySQLdb
+import pymysql
 from random import randint
 import re
-from mobliephone.items import MobliephoneItem
+# from mobliephone.items import MobliephoneItem
 # from scrapy import signals
 # from scrapy.xlib.pydispatch import dispatcher
 
@@ -24,7 +24,7 @@ from mobliephone.items import MobliephoneItem
 # 从数据库中读取对应的手机类型和京东网店对应的地址
 def get_phone_url_from_mysql():
     # 连接存取着手机的京东网店数据库
-    conn = MySQLdb.connect(host='127.0.0.1', user='root', passwd='tentan', db='JingdongPhoneComment', port=3306, charset="utf8", use_unicode=True)
+    conn = pymysql.connect(host='127.0.0.1', user='root', passwd='tentan', db='JingdongPhoneComment', port=3306, charset="utf8", use_unicode=True)
     cursor = conn.cursor()
     query_phone_info = "SELECT phone_type, url FROM phoneurls"
     phone_url_lists = []

@@ -10,7 +10,7 @@
 # # -------------------------------------------------------------------------
 import re
 import requests
-import MySQLdb
+import pymysql
 from mobliephone.tools.GetEveryPhoneType import get_xiaomi_phone_list, get_meizu_phone_list, get_huawei_phone_list
 
 
@@ -31,7 +31,7 @@ def get_taobao_phones_format_urls(phone):
 
 # 进行对应的数据库和数据表创建
 def create_database_and_tables():
-    conn = MySQLdb.connect(host='127.0.0.1', user='root', passwd='tentan', port=3306)
+    conn = pymysql.connect(host='127.0.0.1', user='root', passwd='tentan', port=3306)
     cursor = conn.cursor()
     # 创建淘宝评论数据库的语句
     create_database = """CREATE  DATABASE IF NOT EXISTS TaobaoPhoneComment"""
@@ -71,7 +71,7 @@ def save_taobao_every_phone_url_list():
     create_database_and_tables()
     insert_sql = "INSERT INTO phoneurls(phone_type, url) VALUES(%s, %s)"
     # 连接到数据库
-    conn = MySQLdb.connect(host='127.0.0.1', user='root', passwd='tentan', db='taobaophonecomment', charset="utf8", use_unicode=True)
+    conn = pymysql.connect(host='127.0.0.1', user='root', passwd='tentan', db='taobaophonecomment', charset="utf8", use_unicode=True)
     # 生成操作游标
     cursor = conn.cursor()
 

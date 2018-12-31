@@ -3,7 +3,7 @@
 #   程序：JingdongComment.py
 #   版本：0.1
 #   作者：lawaiter
-#   日期：编写日期20180411
+#   日期：编写日期20181231
 #   语言：Python 3.6
 #   功能：从mysql中读取对应的手机类型和京东上面的网店地址，然后爬取评论内容和评论时间
 #   TODO 下步将京东爬虫改写为多线程爬虫，同时要将pipelines进行数据库异步存储改写
@@ -12,13 +12,16 @@
 import scrapy
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
-import time
+from scrapy import signals
+from scrapy.xlib.pydispatch import dispatcher
+from selenium.webdriver.common.action_chains import ActionChains
 import pymysql
+
+import time
 from random import randint
+
 import re
-# from mobliephone.items import MobliephoneItem
-# from scrapy import signals
-# from scrapy.xlib.pydispatch import dispatcher
+from mobliephone.items import MobliephoneItem
 
 
 # 从数据库中读取对应的手机类型和京东网店对应的地址
@@ -64,6 +67,7 @@ def parse_shop_comment(phoneitem, comments_cons, comments_times, comments_stars,
 # def func_timeout():
 #    pass
 
+
 # 获取京东手机评论的主爬虫类
 class JingdongCommentSpider(scrapy.Spider):
 
@@ -85,12 +89,11 @@ class JingdongCommentSpider(scrapy.Spider):
     profile.update_preferences()
     driver = webdriver.Firefox(profile)'''
 
-
     def __init__(self):
         self.driver = webdriver.Firefox(firefox_options=self.firefox_options, firefox_profile=None)
         super(JingdongCommentSpider, self).__init__()
         # 传递信息,也就是当爬虫关闭时scrapy会发出一个spider_closed的信息,当这个信号发出时就调用closeSpider函数关闭这个浏览器.
-        '''dispatcher.connect(self.closespider, signals.spider_closed)'''
+        dispatcher.connect(self.closespider, signals.spider_closed)
 
     def closespider(self, spider):
         print("spider closed")
@@ -102,89 +105,104 @@ class JingdongCommentSpider(scrapy.Spider):
         comment_cons = []
         comment_times = []
         comment_stars = []
+        phone_kinds = []
         # 获取该页所有的评论列表
-        comment_con = self.driver.find_elements_by_xpath("//div[@class='comment-column J-comment-column']/"
+        comment_con = self.driver.find_elements_by_xpath("//div[@class='comment-item']/div[@class='comment-column J-comment-column']/"
                                                          "p[@class='comment-con']")
         phone_info = self.driver.find_elements_by_class_name("order-info")
-        comment_star = self.driver.find_elements_by_xpath("//div[@class='comment-column J-comment-column']/div[1]")
-        phone_kind = self.driver.find_element_by_xpath("//div[@class='item ellipsis']").text
+        comment_star = self.driver.find_elements_by_xpath("//div[@class='comment-item']/div[@class='comment-column J-comment-column']/div[1]")
+        phone_kind = self.driver.find_elements_by_xpath("//div[@class='item ellipsis']")
+        # 获取每条评论
         for comment in comment_con:
             comment_cons.append(comment.text)
-        for phone_info in phone_info:
-            time_tup = re.match(".*(\d{4})-(\d{2})-(\d{2}).*(\d{2}):(\d{2})", phone_info.text).groups()
+        # 获取每条评论时间，格式为20181124
+        for phone in phone_info:
+            time_tup = re.match(".*(\d{4})-(\d{2})-(\d{2}).*(\d{2}):(\d{2})", phone.text).groups()
             comment_times.append(''.join(list(time_tup)))
+        # 获取每条评论星等
         for star in comment_star:
             a = re.match('.*star(\d)', star.get_attribute("class"))
             if a:
                 comment_stars.append(a.group(1))
-        print(phone_kind, comment_cons, comment_times, comment_stars)
-        return phone_kind, comment_cons, comment_times, comment_stars
+        # 获取每条评论的手机类型
+        for kind in phone_kind:
+            phone_kinds.append(kind.text)
+        print(phone_kinds, comment_cons, comment_times, comment_stars)
+        return phone_kinds, comment_cons, comment_times, comment_stars
 
-    # 解析网店评论的主要部分
+    # 解析网店评论的主要部分，采取的是使用selenium直接访问，然后点击评论翻页码
     def parse(self, response):
+        # 记录已经爬取URL
         gotten_urls = []
+        # 记录错误URL
+        error_urls = []
+        # 从数据库中获取手机网店数据
         phone_list = get_phone_url_from_mysql()
-        for i in phone_list:
-            phone_name = i[0]
-            phone_shop_url = i[1]
+        # 提取数据名称和网店网址
+        for record in phone_list:
+            phone_name = record[0]
+            phone_shop_url = record[1]
+            # 如果已经爬取了，就不爬取
             if phone_shop_url in gotten_urls:
                 continue
             else:
                 try:
-                    gotten_urls.append(phone_shop_url)
+                    # 访问该网店
                     self.driver.get(phone_shop_url)
-                    time.sleep(randint(15, 20))
-                    # 点击页面中的评论选项
+                    time.sleep(randint(10, 20))
+                    # 如果是卖手机壳的网店，就不爬取
                     if re.match('.*手机壳.*', self.driver.find_element_by_xpath("//div[@class='item ellipsis']").text):
+                        error_urls.append(phone_shop_url)
                         continue
                     else:
                         try:
+                            gotten_urls.append(phone_shop_url)
+                            # 找到评论按钮并点击
                             self.driver.find_element_by_xpath("//li[@data-anchor='#comment']").click()
-                            time.sleep(randint(3, 5))
+                            time.sleep(randint(5, 8))
+                            self.driver.implicitly_wait(20)
                             # 连续获得该网店下所有的评论
                             for times in range(0, 10000):
-                                # 将第一页的评论储存起来，用来重新爬取的时候的比较
-                                if times == 0:
-                                    phone_kind, comment_con, comment_time, comment_star = self.parse_phone()
+                                # 获取评论页第一页内容
+                                phone_kind, comment_con, comment_time, comment_star = self.parse_phone()
+                                if len(phone_name) >= len(phone_kind[0]):
+                                    phone_kind = phone_name
+                                try:
+                                    # 依次写入每一评论页的每条评论，一个十个评论
                                     for nu in range(0, len(comment_con)):
-                                        print(('进入'+phone_shop_url))
+                                        print(('进入' + phone_shop_url))
                                         print(nu)
                                         m = parse_shop_comment(MobliephoneItem(), comment_con, comment_time,
                                                                comment_star, phone_kind, nu)
-                                        for everyone in m:
-                                            yield everyone
-                                    if self.driver.find_element_by_xpath("//div[@class='com-table-footer']/div[class"
-                                                                         "='ui-page-wrap clearfix']/div[@class="
-                                                                         "'ui-page']/a[@class='ui-pager-next']"):
-                                        self.driver.find_element_by_xpath("//div[@class='com-table-footer']/div["
-                                                                          "@class='ui-page-wrap clearfix']/div"
-                                                                          "@class='ui-page']/a["
-                                                                          "@class='ui-pager-next']").click()
-                                        time.sleep(randint(7, 10))
-                                    else:
-                                        print("该店铺下的评论获取完毕")
-                                        break
-                                else:
-                                    phone_kind, comment_con, comment_time, comment_star = self.parse_phone()
-                                    for nu in range(0, len(comment_con)):
-                                        print(('进入'+phone_shop_url))
-                                        print(nu)
-                                        m = parse_shop_comment(MobliephoneItem(), comment_con, comment_time,
-                                                               comment_star, phone_kind, nu)
-                                        for everyone in m:
-                                            yield everyone
-                                    if self.driver.find_element_by_xpath("//div[@class='com-table-footer']/div["
-                                                                         "@class='ui-page-wrap clearfix']/div[@"
-                                                                         "class='ui-page']/a[@class='ui-pager-next']"):
-                                        self.driver.find_element_by_xpath("//div[@class='com-table-footer']/div@class="
-                                                                          "'ui-page-wrap clearfix']/div[@class='ui"
-                                                                          "-page']/a[@class='ui-pager-next']").click()
-                                        time.sleep(randint(7, 10))
-                                    else:
-                                        print("该店铺下的评论获取完毕")
-                                        break
-                        except:
+                                        # 进入Pipeline,写入数据库
+                                        for i in m:
+                                            yield i
+                                except:
+                                    print("十个评论获取完毕")
+                                finally:
+                                    # 最后如果评论下一页存在的话，点击下一页评论
+                                    if self.driver.find_element_by_xpath("//div[@class='com-table-footer']/div[@class='ui-page-wrap clearfix']/div[@class='ui-page']/a[@class='ui-pager-next']").text:
+                                        print(self.driver.find_element_by_xpath("//div[@class='com-table-footer']/div[@class='ui-page-wrap clearfix']/div[@class='ui-page']/a[@class='ui-pager-next']").text)
+                                        # 找到下一页所在的标签位置
+                                        next_page_comment = self.driver.find_element_by_xpath("//div[@class='com-table-footer']/div[@class='ui-page-wrap clearfix']/div[@class='ui-page']/a[@class='ui-pager-next']")
+                                        # 模拟鼠标滚动十分之一的页面
+                                        scroll_js = "window.scrollTo(0, document.body.scrollHeight); var lenOfPage=document.body.scrollHeight/2; return lenOfPage;"
+                                        self.driver.execute_script(scroll_js)
+                                        self.driver.execute_script(scroll_js)
+                                        self.driver.execute_script(scroll_js)
+                                        self.driver.execute_script(scroll_js)
+                                        self.driver.execute_script(scroll_js)
+                                        self.driver.execute_script(scroll_js)
+                                        # 点击评论按钮
+                                        time.sleep(randint(8, 13))
+                                        next_page_comment.click()
+                                        # 隐形等待加载
+                                        self.driver.implicitly_wait(20)
+                        except Exception as e:
+                            # 捕获异常并打印
+                            print(e)
                             print("获取字段不正常")
                 except:
                     print("不能正常访问的url记录下来")
                     # 计划加入处理不正常访问的网店的地址continue
+                    error_urls.append(phone_shop_url)

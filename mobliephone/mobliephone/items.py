@@ -6,5 +6,5 @@ class MobliephoneItem(scrapy.Item):
     # name = scrapy.Field()
     comment_time = scrapy.Field()
     comment_con = scrapy.Field()
-    comment_name = scrapy.Field()
+    phone_name = scrapy.Field()
     comment_star = scrapy.Field()

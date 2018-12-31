@@ -121,4 +121,3 @@ driver = webdriver.Firefox(firefox_options=firefox_options)
 # go to the google home page
 driver.get("http://www.baidu.com")
 driver.find_elements_by_class_name('div')
-pass

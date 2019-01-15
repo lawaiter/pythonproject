@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb0f0ab8-5238-4090-9735-35e76ca67896" name="Default" comment="1223,修改为pymysql">
+    <list default="true" id="eb0f0ab8-5238-4090-9735-35e76ca67896" name="Default" comment="1231完成京东评论">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mobliephone/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/mobliephone/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobliephone/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/mobliephone/items.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobliephone/spiders/JingdongComment.py" beforeDir="false" afterPath="$PROJECT_DIR$/mobliephone/spiders/JingdongComment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobliephone/spiders/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/mobliephone/spiders/Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobliephone/tools/JingdongSavePhoneUrls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mobliephone/tools/JingdongSavePhoneUrls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobliephone/tools/TaobaoSavePhoneUrls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mobliephone/tools/TaobaoSavePhoneUrls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobliephone/tools/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/mobliephone/tools/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobliephone/tools/local_html/taobao/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobliephone/tools/mix2s.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobliephone/tools/space_surface.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobliephone/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/mobliephone/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobliephone/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mobliephone/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,13 +29,13 @@
     <SUITE FILE_PATH="coverage/mobliephone$gettaobaogoods.coverage" NAME="gettaobaogoods Coverage Results" MODIFIED="1541173650518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$" />
     <SUITE FILE_PATH="coverage/mobliephone$events.coverage" NAME="events Coverage Results" MODIFIED="1527864827034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Anaconda3/Lib/asyncio" />
     <SUITE FILE_PATH="coverage/mobliephone$TaobaoSavePhoneUrls.coverage" NAME="TaobaoSavePhoneUrls Coverage Results" MODIFIED="1545573534660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mobliephone/tools" />
-    <SUITE FILE_PATH="coverage/mobliephone$main.coverage" NAME="main Coverage Results" MODIFIED="1546252571652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mobliephone" />
+    <SUITE FILE_PATH="coverage/mobliephone$main.coverage" NAME="main Coverage Results" MODIFIED="1547564329387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mobliephone" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1341839373">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="2" />
@@ -51,9 +44,10 @@
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.8" value="4" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -61,7 +55,7 @@
           <entry key="csv" value="1" />
           <entry key="html" value="1" />
           <entry key="png" value="25" />
-          <entry key="py" value="108" />
+          <entry key="py" value="120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -69,20 +63,20 @@
           <entry key="HTML" value="1" />
           <entry key="Image" value="25" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="108" />
+          <entry key="Python" value="120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="py" value="3077" />
-          <entry key="txt" value="23" />
+          <entry key="py" value="3117" />
+          <entry key="txt" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="24" />
-          <entry key="Python" value="3077" />
+          <entry key="PLAIN_TEXT" value="42" />
+          <entry key="Python" value="3117" />
         </counts>
       </usages-collector>
     </session>
@@ -91,7 +85,42 @@
     <favorites_list name="mobliephone" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mobliephone/spiders/JingdongComment.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="208" selection-start-line="208" selection-end-line="208" />
+              <folding>
+                <element signature="e#366#379#0" expanded="true" />
+                <element signature="e#3450#4840#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobliephone/items.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobliephone/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -140,7 +169,6 @@
         <option value="$PROJECT_DIR$/mobliephone/spiders/test.py" />
         <option value="$PROJECT_DIR$/mobliephone/tools/GetEveryPhoneType.py" />
         <option value="$PROJECT_DIR$/mobliephone/tools/JindongSavePhoneUrls.py" />
-        <option value="$PROJECT_DIR$/mobliephone/settings.py" />
         <option value="$PROJECT_DIR$/mobliephone/tools/taobaotest.html" />
         <option value="$PROJECT_DIR$/mobliephone/tools/a" />
         <option value="$PROJECT_DIR$/mobliephone/tools/local_html/taobao/test.html" />
@@ -148,13 +176,14 @@
         <option value="$PROJECT_DIR$/mobliephone/spiders/TaobaoComment.py" />
         <option value="$PROJECT_DIR$/mobliephone/tools/TestComment.py" />
         <option value="$PROJECT_DIR$/mobliephone/tools/TaobaoSpiderTest.py" />
-        <option value="$PROJECT_DIR$/mobliephone/pipelines.py" />
         <option value="$PROJECT_DIR$/mobliephone/tools/TaobaoSavePhoneUrls.py" />
         <option value="$PROJECT_DIR$/mobliephone/items.py" />
         <option value="$PROJECT_DIR$/mobliephone/tools/pyppteerTest.py" />
         <option value="$PROJECT_DIR$/mobliephone/tools/JingdongSavePhoneUrls.py" />
         <option value="$PROJECT_DIR$/mobliephone/spiders/JingdongComment.py" />
         <option value="$PROJECT_DIR$/mobliephone/spiders/Test.py" />
+        <option value="$PROJECT_DIR$/mobliephone/pipelines.py" />
+        <option value="$PROJECT_DIR$/mobliephone/settings.py" />
       </list>
     </option>
   </component>
@@ -166,8 +195,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="40" />
+    <option name="y" value="-11" />
     <option name="width" value="1327" />
-    <option name="height" value="769" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -176,17 +206,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="mobliephone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -203,7 +222,24 @@
               <item name="mobliephone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="mobliephone" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="spiders" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="mobliephone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="mobliephone" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="tools" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mobliephone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -394,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545545969340</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1231完成京东评论">
+      <created>1546269419479</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1546269419479</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -407,9 +450,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="0" width="1327" height="769" extended-state="6" />
+    <frame x="40" y="-11" width="1327" height="780" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6256983" visible="true" weight="0.21434139" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6256983" visible="true" weight="0.22369447" />
       <window_info id="Structure" order="1" sideWeight="0.15696649" side_tool="true" weight="0.23767179" />
       <window_info id="Favorites" order="2" sideWeight="0.37430167" side_tool="true" weight="0.20711975" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -417,13 +461,13 @@
       <window_info anchor="bottom" id="Debug" order="2" sideWeight="0.49883085" weight="0.55932206" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49961028" weight="0.6255778" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49961028" weight="0.5084746" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32819724" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50116915" side_tool="true" weight="0.4899846" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.19538462" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.19414485" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32819724" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32854578" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -481,7 +525,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="2018年11月17日 surface推送，缺淘宝的爬取" />
     <MESSAGE value="1223,修改为pymysql" />
-    <option name="LAST_COMMIT_MESSAGE" value="1223,修改为pymysql" />
+    <MESSAGE value="1231完成京东评论" />
+    <option name="LAST_COMMIT_MESSAGE" value="1231完成京东评论" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -512,13 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobliephone/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/aiohttp/client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="754">
@@ -530,20 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2628">
           <caret line="860" column="17" lean-forward="true" selection-start-line="860" selection-start-column="17" selection-end-line="860" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="169" selection-start-line="169" selection-end-line="169" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1760621658/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-693">
-          <caret line="731" column="6" selection-start-line="731" selection-start-column="6" selection-end-line="731" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -562,31 +586,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobliephone/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobliephone/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1079">
           <caret line="653" selection-start-line="653" selection-end-line="653" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobliephone/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
         </state>
       </provider>
     </entry>
@@ -779,28 +782,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobliephone/phone_shop_url.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobliephone/next_comment.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobliephone/next_page_comment.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mobliephone/phone_shop_url.png" />
+    <entry file="file://$PROJECT_DIR$/mobliephone/next_comment.png" />
+    <entry file="file://$PROJECT_DIR$/mobliephone/next_page_comment.png" />
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/pymysql/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobliephone/comment.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mobliephone/comment.png" />
     <entry file="file://$PROJECT_DIR$/mobliephone/tools/pyppteerTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -808,9 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding>
-            <element signature="e#326#337#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -818,26 +807,75 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1725">
           <caret line="115" column="30" lean-forward="true" selection-start-line="115" selection-start-column="30" selection-end-line="115" selection-end-column="30" />
-          <folding>
-            <element signature="e#31#44#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobliephone/spiders/JingdongComment.py">
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/pymysql/cursors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2520">
-          <caret line="208" selection-start-line="208" selection-end-line="208" />
-          <folding>
-            <element signature="e#366#379#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="108">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1760621658/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1200">
+          <caret line="731" column="6" selection-start-line="731" selection-start-column="6" selection-end-line="731" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobliephone/tools/JingdongSavePhoneUrls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="15">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+          <folding>
+            <element signature="e#836#866#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobliephone/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="79" column="28" lean-forward="true" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobliephone/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="49" column="22" lean-forward="true" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+          <folding>
+            <element signature="e#192#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobliephone/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobliephone/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobliephone/spiders/JingdongComment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="208" selection-start-line="208" selection-end-line="208" />
+          <folding>
+            <element signature="e#366#379#0" expanded="true" />
+            <element signature="e#3450#4840#0" />
+          </folding>
         </state>
       </provider>
     </entry>

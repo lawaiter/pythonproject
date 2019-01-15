@@ -67,6 +67,7 @@ ROBOTSTXT_OBEY = False
 ITEM_PIPELINES = {
     # 'mobliephone.pipelines.MobliephonePipeline': 300,
       'mobliephone.pipelines.JingdongPipeline': 1,
+    # 'mobliephone.pipelines.MysqlTwistedPipeline': 1,
     # 'mobliephone.pipelines.ElasticsearchPipeline': 1,
 }
 

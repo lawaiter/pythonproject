@@ -14,14 +14,15 @@ class MobliephonePipeline(object):
         return item
 
 
-class MysqlTwistedPipeline1(object):
+class MysqlTwistedPipeline(object):
+
     # 这个类pipeline， 用来进行异步存入数据库操作
     def __init__(self, dbpool):
         self.dbpool = dbpool
 
     @classmethod  # 定义为类方法
     # 这是建立twisited提供的异步处理的连接池
-    def from_setting(cls, settings):
+    def from_settings(cls, settings):
         dbparms = dict(
             host=settings["MYSQL_HOST"],
             password=settings["MYSQL_PASSWORD"],
@@ -31,7 +32,7 @@ class MysqlTwistedPipeline1(object):
             cursorclass=pymysql.cursors.DictCursor,
             use_unicode=True
         )
-        dbpool = adbapi.ConnectionPool("MySQLdb", **dbparms)
+        dbpool = adbapi.ConnectionPool("pymysql", **dbparms)
         return cls(dbpool)
 
     def process_item(self, item, spider):
@@ -41,6 +42,7 @@ class MysqlTwistedPipeline1(object):
         query = self.dbpool.runInteraction(self.do_insert, item)
         # 遇到异常的时候，进行异常处理
         query.addErrback(self.handle_error)  # 处理异常的具体动作
+        return item
 
     def handle_error(self, failure, item, spider):
         # 处理异常的具体动作就是打印出异常

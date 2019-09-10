@@ -1,0 +1,9 @@
+.no-underline>tr>td>a:hover{
+    text-decoration: none;
+}
+nav input{
+    width:39%!important
+}
+p1{
+    font-size: "NanumSquareRound Regular" 30px;
+}

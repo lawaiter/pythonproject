@@ -1,0 +1,23 @@
+#topnav{
+    padding-left: 5em;
+    padding-right: 5em;
+    font-size: 1.25em;
+}
+.nav-item{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.table{
+    font-size: 1.25em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.no-underline>tr>td>a:hover{
+    text-decoration: none;
+}
+nav input{
+    width:39%!important
+}
+#line-through{
+    text-decoration: line-through;
+}

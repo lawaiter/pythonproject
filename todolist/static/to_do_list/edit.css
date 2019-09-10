@@ -1,0 +1,6 @@
+.no-underline>tr>td>a:hover{
+    text-decoration: none;
+}
+nav input{
+    width:39%!important
+}
